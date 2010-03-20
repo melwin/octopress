@@ -33,8 +33,7 @@ require 'rexml/document'
 include REXML
 
 
-file = File.new(ARGV[0])
-doc = Document.new file
+doc = Document.new File.new(ARGV[0])
 
 FileUtils.mkdir_p "_posts"
 
@@ -50,8 +49,7 @@ doc.elements.each("rss/channel/item[wp:status = 'publish' and wp:post_type = 'po
 
     content = content.gsub(/<pre lang="([^"]*)">(.*?)<\/pre>/m, '{% highlight \1 %}\2{% endhighlight %}')
     
-    3.times do |i|
-	i += 1
+    (1..3).each do |i|
         content = content.gsub(/<h#{i}>([^<]*)<\/h#{i}>/, ('#'*i) + ' \1')
     end
 
