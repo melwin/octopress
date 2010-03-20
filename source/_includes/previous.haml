@@ -1,0 +1,9 @@
+%h4 Previous Posts
+#previous
+  %ul
+    - site.posts.sort_by(&:date).reverse[0..9].each_with_index do |post,index|
+      %li
+        %p
+          = link_to(post.title, post.url, {:class=>"title"})
+          %span.meta
+            = post.date.strftime("Posted %B %d, %Y")
