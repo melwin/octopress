@@ -1,4 +1,4 @@
-require 'active_support'
+#require 'active_support'
 
 site_url    = "http://martin.elwin.com"   # deployed site url for sitemap.xml generator
 port        = "4000"      # preview project port eg. http://localhost:4000
@@ -88,7 +88,7 @@ end
 desc "Generate styles only"
 task :generate_style do
   puts ">>> Generating styles <<<"
-  system "compass"
+  system "compass compile"
 end
 
 desc "Generate site files only"
