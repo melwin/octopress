@@ -5,5 +5,6 @@
       %li
         %p
           = link_to(post.title, post.url, {:class=>"title"})
+          %br
           %span.meta
             = post.date.strftime("Posted %B %d, %Y")
