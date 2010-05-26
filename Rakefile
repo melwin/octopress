@@ -1,4 +1,8 @@
-#require 'active_support'
+require "rubygems"
+require "bundler"
+Bundler.setup
+
+require 'source/_helpers'
 
 site_url    = "http://martin.elwin.com"   # deployed site url for sitemap.xml generator
 port        = "4000"      # preview project port eg. http://localhost:4000
