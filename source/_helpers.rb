@@ -1,4 +1,4 @@
-gem 'activesupport', "2.3.2"
+gem 'activesupport'
 require 'active_support'
 require 'rubypants'
 
