@@ -2,7 +2,7 @@ source: source
 destination: site
 markdown: rdiscount
 pygments: true
-permalink: /blog/:year/:month/:title
+permalink: /blog/:year/:month/:title/
 url: http://martin.elwin.com
 multiviews: true
 sass: false
