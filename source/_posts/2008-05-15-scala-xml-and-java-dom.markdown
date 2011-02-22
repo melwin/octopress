@@ -24,7 +24,7 @@ val saxHandler = new NoBindingFactoryAdapter()
 saxHandler.scopeStack.push(TopScope)
 TransformerFactory.newInstance.newTransformer.transform(new DOMSource(dom), new SAXResult(saxHandler))
 saxHandler.scopeStack.pop
-val xml = factoryHandler.rootElem
+val xml = saxHandler.rootElem
 {% endhighlight %}
 
 What's going on here? Well, the Scala XML library uses SAX to parse XML and create the XML structure. One way of generating SAX events is to walk a DOM tree, which is handled by the `javax.xml.transform.Transformer` with a `DOMSource` as input and a `SAXResult` as output. The extension of the `DefaultHandler` needed for handling the SAX events is implemented by the `scala.xml.parsing.FactoryAdapter`, which is extended by the `NoBindingFactoryAdapter` used to construct the XML structure. Because of this, we can do violence on the API and use the `NoBindingFactoryAdapter` directly as a SAX `DefaultHandler` - nice! The `scopeStack` calls are done to maintain the scope information, which I stole from the `loadXML` method in the `AdapterFactory` class.
