@@ -26,19 +26,15 @@ If you now start Emacs again you'll see that the menu bar and the toolbar is gon
 
 ### Configuring Emacs
 
-If you want to add your own customizations to Emacs when using emacs-starter-kit, just add an Emacs LISP file called `<em>username</em>.el`, or `<em>hostname</em>.el`, in the `~/.emacs.d` directory. For instance, to make the menu bar always visible:
+If you want to add your own customizations to Emacs when using emacs-starter-kit, just add an Emacs LISP file called <em>`username.el`</em>, or <em>`hostname.el`</em>, in the `~/.emacs.d` directory. For instance, to make the menu bar always visible:
 
-<ol>
-	<li>Open Emacs, if it's not open already.</li>
-	<li>Press `C-x C-f` and type in: `~/.emacs.d/<em>username</em>.el`<br>Where <em>username</em> is the name you log in with (for instance, in my case the complete filename is `melwin.el`).</li>
-	<li>Type in the following in the file:
-{% highlight lisp %}
-(menu-bar-mode 1)
-{% endhighlight %}
-</li>
-	<li>And save the file with `C-x s`.</li>
-	<li>Now quit (`C-x c`) and restart and you'll see that the menu bar is shown.</li>
-</ol>
+
+1. Open Emacs, if it's not open already.
+1. Press `C-x C-f` and type in: `~/.emacs.d/username.el`<br>Where <em>username</em> is the name you log in with (for instance, in my case the complete filename is `melwin.el`).
+1. Type in the following in the file:
+        (menu-bar-mode 1)
+And save the file with `C-x s`.
+1. Now quit (`C-x c`) and restart and you'll see that the menu bar is shown.
 
 ### Working with Magit
 
