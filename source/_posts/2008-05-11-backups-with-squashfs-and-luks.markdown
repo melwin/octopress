@@ -2,6 +2,7 @@
 wordpress_id: "20"
 layout: post
 title: Compressed and Encrypted Backup with SquashFS and LUKS
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=20
 ---
 <a href="http://kubuntu.org">Hardy Heron (KDE flavor)</a> has been out for a while now and this weekend I finally decided to upgrade my (sweet sweet Dell M90) laptop from Gutsy. I used this as justification to get a new Hitachi SATA 200GB 7200RPM disk to replace the old 250GB 5200RPM in an effort to boost performance a little. Getting a new disk also makes the upgrade a lot less risky - I can keep the old disk as it is while setting up the new system.

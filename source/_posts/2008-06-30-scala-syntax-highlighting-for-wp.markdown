@@ -2,6 +2,7 @@
 wordpress_id: "27"
 layout: post
 title: Scala Syntax Highlighting for WP
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=27
 ---
 Writing the previous post I realized that the Wordpress plugin for syntax highligting I was using (Highlight Source Pro) didn't support Scala.

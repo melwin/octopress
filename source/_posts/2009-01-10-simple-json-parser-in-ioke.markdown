@@ -2,6 +2,7 @@
 wordpress_id: "39"
 layout: blog_post
 title: Simple JSON Parser in Ioke
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=39
 ---
 After having enjoyed most of the days off over Christmas my fingers started itching - time to do some programming. Luckily around the same time I stumbled across <a href="http://olabini.com/blog/category/ioke/">Ola Bini's posts on the Ioke language</a>. As the <a href="http://ioke.org/guide.html">Ioke guide</a> begins:

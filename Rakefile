@@ -5,9 +5,9 @@ require "stringex"
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "melwin@martin.elwin.com"
-ssh_port       = "22"
+ssh_port       = "23"
 document_root  = "~/site/"
-rsync_delete   = true
+rsync_delete   = false
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy

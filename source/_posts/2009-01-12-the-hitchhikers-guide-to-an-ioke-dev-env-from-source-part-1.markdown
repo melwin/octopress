@@ -2,6 +2,7 @@
 wordpress_id: "74"
 layout: post
 title: "The Hitchhiker's Guide to an Ioke Dev Env From Source (part 1: Git)"
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=74
 ---
 In this series of posts I will guide you, the humble reader, through the install procedure to get a development environment for <a href="http://ioke.org/">Ioke</a> up and running. All the cool kids want to develop in Ioke nowadays, so let's make you can as well!

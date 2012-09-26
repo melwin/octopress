@@ -2,6 +2,7 @@
 wordpress_id: "148"
 layout: post
 title: "The Hitchhiker's Guide to an Ioke Dev Env From Source (part 5: Ioke and the REPL)"
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=148
 ---
 This is the fifth part in a series of posts for non-experts about setting up an Ioke development environment on Linux. Please see the previous posts to start at the beginning:

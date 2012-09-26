@@ -2,6 +2,7 @@
 wordpress_id: "21"
 layout: post
 title: Scala XML and Java DOM
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=21
 ---
 How do we go from and DOM to Scala XML the most efficiently? Well... That's what I asked myself the other day. The Scala API <a href="http://www.scala-lang.org/docu/files/api/scala/xml/XML$object.html">`scala.xml.XML`</a> object has helper functions to create Scala XML structures from the usual suspects: Strings, InputStream, Reader, File, etc. But DOM Document or Element is missing.

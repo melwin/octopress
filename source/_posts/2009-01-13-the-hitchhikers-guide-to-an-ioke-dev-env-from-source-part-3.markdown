@@ -2,6 +2,7 @@
 wordpress_id: "103"
 layout: post
 title: "The Hitchhiker's Guide to an Ioke Dev Env From Source (part 3: emacs-starter-kit)"
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=103
 ---
 This is the third part in a series of posts for non-experts about setting up an Ioke development environment on Linux. Please see the previous posts to start at the beginning:

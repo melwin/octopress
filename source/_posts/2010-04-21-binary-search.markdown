@@ -1,5 +1,6 @@
 ---
 title: "Binary Search"
+comments: true
 layout: post
 ---
 

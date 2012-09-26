@@ -2,6 +2,7 @@
 wordpress_id: "177"
 layout: post
 title: New Direction?
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=177
 ---
 More than a full year since last post - this might not be working as well as I had hoped...!

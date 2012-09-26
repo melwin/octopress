@@ -2,6 +2,7 @@
 wordpress_id: "22"
 layout: post
 title: DCOP and xmobar
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=22
 ---
 For me, the computer is a work tool that should get out of the way as much as possible to allow me to perform the task at hand. I spend many hours every day working with, primarily, my laptop, and seemingly insignificant improvements to the desktop environment and development tools add up over time to improve my overall efficiency. Because of this I like to spend time looking into how the tools I use can be tuned to better help in what I need to do.

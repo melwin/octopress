@@ -2,6 +2,7 @@
 wordpress_id: "28"
 layout: post
 title: Caching Filter Queries with Coherence
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=28
 ---
 A pretty nice thing that I recently tried with a customer was storing a query result in a query cache.

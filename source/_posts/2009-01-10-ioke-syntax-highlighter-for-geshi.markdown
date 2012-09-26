@@ -2,6 +2,7 @@
 wordpress_id: "56"
 layout: post
 title: Ioke Syntax Highlighter for GeSHi
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=56
 ---
 Speaking of Ioke - just added a syntax highlighter definition for GeSHi in my Ioke fork repository. The commit can be found here:

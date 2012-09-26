@@ -2,6 +2,7 @@
 wordpress_id: "132"
 layout: post
 title: Type Checking in Ioke Java Methods
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=132
 ---
 Ola Bini recently issued <a href="http://kenai.com/projects/ioke/lists/dev/archive/2009-01/message/21">a call to arms</a> to help with the receiver and argument validation for Java methods in Ioke. These are the Ioke methods that are implemented in Java, instead of in Ioke itself.

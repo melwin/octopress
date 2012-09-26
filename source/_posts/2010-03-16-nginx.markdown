@@ -2,6 +2,7 @@
 wordpress_id: "180"
 layout: post
 title: Nginx
+comments: true
 wordpress_url: http://martin.elwin.com/blog/?p=180
 ---
 For that fresh new feeling I switched this site from Apache2 to <a href="http://nginx.org">Nginx</a>. A quick compile of the source package and following the <a href="http://wiki.nginx.org/Wordpress">instructions</a> on hooking it up with Wordpress over fastcgi using php-cgi and we're done!
